@@ -1,0 +1,288 @@
+body {
+  background: linear-gradient(#e66465, #9198e5);
+  font-family: Montserrat, sans-serif;
+}
+
+header {
+  padding: 32px 32px;
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.informacoes {
+  position: absolute;
+  top: 88px;
+  right: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.avatar {
+  width: 258px;
+  border-radius: 45%;
+  border: solid 4px;
+}
+
+.nome {
+  font-size: 70px;
+  display: inline-block;
+  position: absolute;
+  top: 130px;
+  right: 0;
+  color: #030938;
+}
+
+.nav-itens {
+  text-align: center;
+  margin-top: 15px;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+}
+
+nav li {
+  display: inline;
+  margin: 0px 15px 0 15px;
+  transition: 0.4s all;
+}
+nav a {
+  color: #000000;
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+nav a:hover {
+  color: #3c00aa;
+  transition: 0.4s;
+}
+
+.aprendizado-descrição {
+  text-align: center;
+  font-size: 50px;
+  margin: 70px;
+  font-weight: bold;
+}
+
+.aprendizado-descrição:hover {
+  color: #2600ff;
+  transition: 0.4s;
+}
+
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.habilidades li img {
+  width: 224px;
+}
+
+.habilidades li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  height: 350px;
+  vertical-align: top;
+  margin: 0 1.5% 100px;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 3px solid #000000;
+  border-radius: 10px;
+  transition: 0.8s all cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.habilidades li:hover {
+  border-color: #00087a;
+  transform: scale(1.08);
+  background-color: #646cd4;
+}
+
+.habilidades li:active {
+  border-color: #8a009c;
+}
+
+.habilidades li:hover h2 {
+  font-size: 34px;
+}
+
+.habilidades h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.habilidades-descrição {
+  font-size: 18px;
+}
+.habilidades-preço {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  background: url("./images/galaxia.jpg");
+  padding: 0 0 20px 0;
+}
+
+.paragrafo-contato {
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+  padding: 22px;
+}
+
+.paragrafo-contato:hover {
+  color: #2600ff;
+  transition: 0.4s;
+}
+
+.contatos ul {
+  list-style: none;
+  margin-left: 113px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-bottom: 22px;
+  padding-left: 300px;
+}
+
+.contatos img {
+  width: 200px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+  padding-left: 2px;
+}
+
+/* css da página inicial */
+
+.banner {
+  background-color: #0f0e0e;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.titulo-principal {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  clear: left;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.principal {
+  padding: 3em 0;
+  width: 940px;
+  margin: 0 auto;
+  text-align: right;
+  font-size: 21px;
+  vertical-align: middle;
+  letter-spacing: 2px;
+}
+
+.principal p {
+  margin: 0 0 1em;
+}
+
+.principal strong {
+  font-weight: bold;
+}
+
+.principal em {
+  font-style: italic;
+}
+
+.icone {
+  width: 120px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.coisas {
+  padding: 3em 0;
+}
+
+.conteudo-coisas {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.lista-coisas {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 22px;
+  padding-bottom: 40px;
+}
+
+.itens {
+  line-height: 1.5;
+}
+
+.itens:first-child {
+  font-weight: bold;
+}
+
+.itens:before {
+  content: "⇒ ";
+}
+
+.imagem-coisas {
+  width: 60%;
+  opacity: 1;
+  transition: 400ms;
+  box-shadow: 10px 10px 10px #000000;
+  margin: auto;
+  display: flex;
+}
+
+.imagem-coisas:hover {
+  opacity: 0.3;
+}
+
+.Nina-descrição {
+  text-align: center;
+  padding: 40px;
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.Nina-descrição:hover {
+  color: #2600ff;
+  transition: 0.4s;
+}
+
+@media screen and (max-width: 480px) {
+  .caixa,
+  .principal,
+  .conteudo-coisas,
+  .mapa-conteudo,
+  .video {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+  }
+
+  .lista-coisas,
+  .imagem-coisas {
+    width: 100%;
+  }
+
+  nav {
+    text-align: center;
+  }
+}
